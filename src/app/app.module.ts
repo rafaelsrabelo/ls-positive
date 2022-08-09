@@ -8,13 +8,15 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './shared/banner/banner.component';
 import { ServicesComponent } from './shared/services/services.component';
+import { ReviewComponent } from './shared/review/review.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BannerComponent,
-    ServicesComponent
+    ServicesComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,

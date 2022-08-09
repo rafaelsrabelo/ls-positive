@@ -1,4 +1,5 @@
 .services {
+  background: #000000;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -8,7 +9,7 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 1.3;
-    color: #090707;
+    color: #ffffff;
 
     span {
       color: #ED1E79;
@@ -17,16 +18,10 @@
   }
 
   .card-service {
-    .circle {
-
-
-      img {}
-    }
-
     .card-style {
       border: 1px solid #ED1E79;
       border-radius: 8px;
-      padding: 10px 20px;
+      padding: 30px 20px;
 
       &+.card-style {
         margin-left: 20px
@@ -35,22 +30,30 @@
       h4 {
         margin-top: 20px;
         font-weight: 700;
+        color: #ffffff;
       }
 
       p {
+        color: #ffffff;
         font-weight: 400;
       }
 
     }
 
-    .circle {
-      background: #E31B73;
-      border-radius: 50%;
-      height: 96px;
-      width: 96px;
+    .rounded-circle {
+      // margin: 0 auto;
+
+      background: #fa78b2;
+      // border-radius: 50%;
+      // height: 96px;
+      // width: 96px;
 
       img {
-
+        // justify-content  display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // margin: auto;
+        // display: block;
         height: 42px;
         width: 42px;
       }

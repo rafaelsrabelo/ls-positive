@@ -1,0 +1,42 @@
+.review {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  padding: 15px;
+
+  .client {
+
+    img {
+      border-radius: 8px;
+      border: 5px solid #ED1E79;
+      height: 250px;
+      width: 250px;
+    }
+  }
+
+  .text {
+    // margin: auto;
+    // background: red;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    // text-align: start;
+  }
+
+  // border: 1px solid #fff;
+  h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.3;
+    color: #ffffff;
+
+    span {
+      color: #ED1E79;
+      text-decoration: underline;
+    }
+  }
+}
