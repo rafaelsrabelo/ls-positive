@@ -7,7 +7,7 @@
 
   h1 {
     color: #ffffff;
-    font-size: 6.5rem;
+    font-size: 6rem;
     font-weight: 700;
 
     span {
@@ -17,7 +17,7 @@
 
   h2 {
     color: #ffff;
-    letter-spacing: 13px;
+    letter-spacing: 11px;
 
   }
 
@@ -51,9 +51,12 @@
     }
   }
 
-  .img-banner {
+  .banner-img {
     background: red;
-    // background-image: url('../../../assets/img/banner.png');
+    // background-image: url('../../../assets/img/peto.png');
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
   }
 
   .group-buttons {
@@ -80,5 +83,13 @@
 
   img {
     height: 400px;
+  }
+}
+
+@media (max-width:480px) {
+  .banner {
+    h1 {
+      font-size: 10px;
+    }
   }
 }

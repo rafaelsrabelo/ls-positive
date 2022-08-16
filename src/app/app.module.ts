@@ -9,6 +9,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './shared/banner/banner.component';
 import { ServicesComponent } from './shared/services/services.component';
 import { ReviewComponent } from './shared/review/review.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReviewComponent } from './shared/review/review.component';
     HeaderComponent,
     BannerComponent,
     ServicesComponent,
-    ReviewComponent
+    ReviewComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
