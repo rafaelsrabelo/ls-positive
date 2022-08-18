@@ -10,6 +10,8 @@ import { BannerComponent } from './shared/banner/banner.component';
 import { ServicesComponent } from './shared/services/services.component';
 import { ReviewComponent } from './shared/review/review.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { ServiceComponent } from './pages/service/service.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     BannerComponent,
     ServicesComponent,
     ReviewComponent,
-    FooterComponent
+    FooterComponent,
+    ServiceComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
