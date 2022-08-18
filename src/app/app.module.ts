@@ -12,6 +12,7 @@ import { ReviewComponent } from './shared/review/review.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AboutComponent } from './pages/about/about.component';
     ReviewComponent,
     FooterComponent,
     ServiceComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
