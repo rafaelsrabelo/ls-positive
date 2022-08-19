@@ -36,11 +36,17 @@ nav {
       transition: 0.9s;
       font-size: 14px;
       font-weight: 700;
+      display: flex;
+      align-items: center;
 
       &:hover {
         background: #FFDBEC;
         color: #ED1E79;
         border: 1px solid #ED1E79;
+      }
+
+      img {
+        margin-right: 14px;
       }
     }
   }
