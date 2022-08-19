@@ -64,7 +64,7 @@
   .arrow-right {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -40px;
     right: auto;
     bottom: 0;
     background: transparent;
@@ -80,7 +80,7 @@
 
   .arrow-right {
     left: auto;
-    right: 0;
+    right: -40px;
   }
 
   .item {

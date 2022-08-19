@@ -7,8 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { DogWalkingComponent } from './pages/dog-walking/dog-walking.component';
 
 const routes: Routes = [
-  { path: 'sobre', component: AboutComponent },
   { path: '', component: HomeComponent },
+  { path: 'sobre', component: AboutComponent },
   { path: 'dog-walking', component: DogWalkingComponent }
 ];
 
