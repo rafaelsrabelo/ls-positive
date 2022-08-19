@@ -1,26 +1,58 @@
-<div class="review">
-  <div class="container">
-    <h2 class="text-center pt-5 pb-5">
-      NOSSOS <span>CLIENTES</span>
-    </h2>
-    <div class="review">
-      <div class="d-flex">
-        <div class="col-md-6">
-          <div class="client">
-            <img src="https://github.com/rafaelsrabelo.png" class="" alt="...">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="text">
-            <p class="mb-5 mt-5">O blue depois que acontceu tal coisa ficou um cachorro muito legal, ama passear e nao é
-              nada
-              reativo, as tias e tios da positive são nota 100000000, sou fa! Indico para todo mundo que tem um dogzin
-              reativo</p>
-            <p><strong>Rafael Rabelo</strong><br> <small>Pai do Blue</small></p>
-
-          </div>
-        </div>
+<div class="text-center">
+  <h2>Review</h2>
+</div>
+<div class="containerr">
+  <button class="arrow-left control" aria-label="Previous">
+    <img src="./../../../assets/img/left.png" alt="">
+  </button>
+  <button class="arrow-right control" aria-label="Next">
+    <img src="./../../../assets/img/right.png" alt="">
+  </button>
+  <div class="gallery-wrapper">
+    <div class="gallery">
+      <div class="card-review item current-item">
+        <img src="./../../../assets/img/star.png" alt="">
+        <h4>Rafael Rabelo</h4>
+        <small>Pai do Blue</small>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+        </p>
+      </div>
+      <div class="card-review item">
+        <img src="./../../../assets/img/star.png" alt="">
+        <h4>Rafael Rabelo</h4>
+        <small>Pai do Blue</small>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+        </p>
+      </div>
+      <div class="card-review item">
+        <img src="./../../../assets/img/star.png" alt="">
+        <h4>Rafael Rabelo</h4>
+        <small>Pai do Blue</small>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+        </p>
+      </div>
+      <div class="card-review item">
+        <img src="./../../../assets/img/star.png" alt="">
+        <h4>Rafael Rabelo</h4>
+        <small>Pai do Blue</small>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+        </p>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  const controls = document.querySelectorAll(".control");
+
+  let currentItem = 0;
+  const items = document.querySelectorAll(".items");
+  const maxItems = items.leng
+
+  controls.forEach((control) => {
+    control.addEventListener("click", () => {
+      const isLeft = control.classList.contains("arrow-left");
+      console.log("control clicked", isLeft);
+    });
+  });
+</script>
