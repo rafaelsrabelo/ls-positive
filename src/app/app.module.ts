@@ -14,6 +14,8 @@ import { ServiceComponent } from './pages/service/service.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DogWalkingComponent } from './pages/dog-walking/dog-walking.component';
+import { HospedagemAfetivaComponent } from './pages/hospedagem-afetiva/hospedagem-afetiva.component';
+import { PetCareComponent } from './pages/pet-care/pet-care.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { DogWalkingComponent } from './pages/dog-walking/dog-walking.component';
     ServiceComponent,
     AboutComponent,
     HomeComponent,
-    DogWalkingComponent
+    DogWalkingComponent,
+    HospedagemAfetivaComponent,
+    PetCareComponent
   ],
   imports: [
     BrowserModule,
