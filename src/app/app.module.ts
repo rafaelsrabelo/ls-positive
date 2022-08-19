@@ -13,6 +13,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
+import { DogWalkingComponent } from './pages/dog-walking/dog-walking.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HomeComponent } from './pages/home/home.component';
     FooterComponent,
     ServiceComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    DogWalkingComponent
   ],
   imports: [
     BrowserModule,
