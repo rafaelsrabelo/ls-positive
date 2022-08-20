@@ -28,13 +28,33 @@
       margin-left: 30px;
     }
 
-    .image-card {
-      // background: #ED1E79;
-      // background-image: url('./../../../assets/passeio.png');
-      border: 1px solid #000000;
+    .image-card1,
+    .image-card2,
+    .image-card3,
+    .image-card4 {
+      // border: 1px solid #000000;
       border-radius: 15px;
       height: 120px;
-      // margin-bottom: 30px;
+    }
+
+    .image-card1 {
+      background-image: url('./../../../assets/passeio.png');
+      background-size: cover;
+    }
+
+    .image-card2 {
+      background-image: url('./../../../assets/img/cachorromodelo.png');
+      background-size: cover;
+    }
+
+    .image-card3 {
+      background-image: url('./../../../assets/img/cahorrinhamodelo.png');
+      background-size: cover;
+    }
+
+    .image-card4 {
+      background-image: url('./../../../assets/img/gato.png');
+      background-size: cover;
     }
 
     .text-card {
