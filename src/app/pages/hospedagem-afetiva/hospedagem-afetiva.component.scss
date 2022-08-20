@@ -154,3 +154,21 @@
   }
 
 }
+
+@media (max-width: 576px) {
+  .banner {
+    .content {
+      h1 {
+        font-size: 44px;
+      }
+    }
+  }
+
+  .value {
+    margin: 20px;
+  }
+
+  .aviso {
+    font-size: 18px;
+  }
+}
