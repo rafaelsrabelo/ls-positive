@@ -11,7 +11,7 @@
   .gallery {
     display: flex;
     flex-flow: row nowrap;
-    gap: 15px;
+    gap: 40px;
 
     .card-review {
       background: #ffffff;
@@ -64,7 +64,7 @@
   .arrow-right {
     position: absolute;
     top: 0;
-    left: -40px;
+    left: 374px;
     right: auto;
     bottom: 0;
     background: transparent;
@@ -76,22 +76,29 @@
     &:hover {
       filter: brightness(0.8);
     }
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
   }
 
   .arrow-right {
     left: auto;
-    right: -40px;
+    right: 324px;
   }
 
   .item {
-    width: 250px;
-    height: 250px;
+    width: 349px;
+    height: 220px;
     flex-shrink: 0;
     opacity: 0.6;
     transition: all 600ms ease-in-out;
   }
 
   .current-item {
+    width: 544px;
+    height: 292px;
     opacity: 1;
   }
 
