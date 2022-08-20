@@ -25,7 +25,7 @@
     }
 
     &+.card-service {
-      margin-left: 30px;
+      // margin-left: 30px;
     }
 
     .image-card1,
@@ -91,6 +91,12 @@
   .all {
     .header-service {
       h2 {}
+    }
+
+    margin: 20px;
+
+    .card-service {
+      width: 100%;
     }
   }
 }

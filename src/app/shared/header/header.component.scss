@@ -25,31 +25,31 @@ nav {
     }
   }
 
-  .scheduling {
-    button {
-      padding: 10px 24px;
-      text-decoration: none;
-      color: #ffffff;
-      padding: 10px 20px;
-      background: #ED1E79;
-      border-radius: 40px;
-      transition: 0.9s;
-      font-size: 14px;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
+  .btn-agendamento {
+    padding: 10px 24px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: #ED1E79;
+    border-radius: 40px;
+    transition: 0.9s;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
 
-      &:hover {
-        background: #FFDBEC;
-        color: #ED1E79;
-        border: 1px solid #ED1E79;
-      }
+    &:hover {
+      background: #FFDBEC;
+      color: #ED1E79;
+      border: 1px solid #ED1E79;
+    }
 
-      img {
-        margin-right: 14px;
-      }
+    img {
+      margin-right: 14px;
     }
   }
+
+  .scheduling {}
 }
 
 // header {

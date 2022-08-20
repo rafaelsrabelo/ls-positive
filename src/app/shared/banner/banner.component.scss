@@ -113,44 +113,24 @@
     h1 {
       font-size: 2.5rem;
       letter-spacing: 0;
-
+      text-align: center;
     }
 
     h2 {
       font-size: 1.5rem;
       letter-spacing: 0;
+      text-align: center;
 
     }
 
     p {
       font-size: 20px;
+      text-align: center;
+
     }
 
-    .btn-group {
-
-      // margin-top: 25px;
-      button {}
-
-      .btn-banner {
-        // background: transparent;
-        // color: #ffffff;
-        // border: 1px solid #ED1E79;
-        // border-radius: 40px;
-        // padding: 16px 32px;
-        // text-decoration: none;
-        // width: 200px
-        // background-color: red;
-
-        &:hover {
-          // filter: brightness(0.9);
-        }
-      }
-
-      .btn-info {
-        // background: transparent;
-        // color: #ffffff;
-        // text-decoration: underline;
-      }
+    button {
+      margin: 50px auto;
     }
   }
 }
