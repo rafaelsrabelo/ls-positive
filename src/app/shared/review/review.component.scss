@@ -115,3 +115,17 @@
     /* Firefox */
   }
 }
+
+@media (max-width: 576px) {
+  .containerr {
+
+    .arrow-left,
+    .arrow-right {
+      left: 0;
+    }
+
+    .arrow-right {
+      right: -350px;
+    }
+  }
+}

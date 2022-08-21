@@ -16,6 +16,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { DogWalkingComponent } from './pages/dog-walking/dog-walking.component';
 import { HospedagemAfetivaComponent } from './pages/hospedagem-afetiva/hospedagem-afetiva.component';
 import { PetCareComponent } from './pages/pet-care/pet-care.component';
+import { FormWppComponent } from './pages/form-wpp/form-wpp.component';
+import { AgendamentoDogWalkingComponent } from './pages/agendamento-dog-walking/agendamento-dog-walking.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PetCareComponent } from './pages/pet-care/pet-care.component';
     HomeComponent,
     DogWalkingComponent,
     HospedagemAfetivaComponent,
-    PetCareComponent
+    PetCareComponent,
+    FormWppComponent,
+    AgendamentoDogWalkingComponent
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,26 @@
-<nav class="navbar navbar-expand-lg py-3">
-  <div class="container d-flex">
-    <a class="navbar-brand" href="#">
-      <img src="./../../../assets/img/logo.png" alt="">
-    </a>
+<nav class="navbar navbar-expand-lg py-3 bg-white">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+
+      <div class="logo">
+
+        <a class="navbar-brand" href="#">
+          <img src="./../../../assets/img/logo.png" alt="">
+        </a>
+      </div>
+    </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre</a>
+          <a class="nav-link" href="#">Sobre nós</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -28,39 +35,18 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Depoimentos</a>
+          <a class="nav-link" href="#">Reviews </a>
         </li>
+
       </ul>
     </div>
-    <button class="btn-agendamento d-none d-sm-block">
-      <img src="./../../../assets/img/wpp-white.svg" alt="">
-      Agende Aqui
-    </button>
-  </div>
-</nav>
 
-<!-- <a href="#" class="login">Login</a> -->
+    <div>
+      <button class="login d-none d-sm-block">
+        Login
+      </button>
 
-<!-- <header class="">
-  <div class="container">
-    <div class="d-flex">
-
-      <div class="logo">
-        <a href="#">
-          <img src="./../../../assets/img/logo.png" alt="">
-        </a>
-      </div>
-      <div class="center d-none d-sm-block">
-        <a href="#" class="active">Início</a>
-        <a href="#">Sobre</a>
-        <a href="#">Serviços</a>
-        <a href="#">Depoimentos</a>
-      </div>
-
-      <div class="end">
-
-        <a href="#" class="schedule">Agende Aqui</a>
-      </div>
     </div>
   </div>
-</header> -->
+
+</nav>
