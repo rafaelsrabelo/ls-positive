@@ -1,0 +1,28 @@
+.agendamento {
+
+  .container {
+    border-radius: 15px;
+    background: #fff;
+    padding: 20px;
+
+    a {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 21px;
+      /* identical to box height */
+
+      text-transform: uppercase;
+
+      color: #495057;
+    }
+  }
+
+  .enviar {
+    background: #ED1E79;
+    border-radius: 15px;
+    padding: 16px 32px;
+    color: #fff !important;
+  }
+}
