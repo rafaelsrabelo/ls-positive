@@ -1,0 +1,63 @@
+.about {
+  img {
+    border-radius: 15px;
+  }
+
+  h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 130%;
+    /* or 84px */
+
+
+    /* Secondary Colors/gray-headline */
+
+    color: #212529;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+
+    color: #000000;
+  }
+}
+
+.message {
+  background: #FFDBEC;
+  padding: 50px 90px;
+
+  p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+
+    color: #000000;
+
+  }
+}
+
+@media (max-width: 576px) {
+  .message {
+    padding: 20px;
+  }
+
+  .oi {
+
+    text-align: start;
+  }
+}

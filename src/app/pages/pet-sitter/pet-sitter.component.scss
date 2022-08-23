@@ -1,9 +1,9 @@
+.banner {
+  background: #E6E7E7;
+}
+
 .content {
   padding: 90px 0;
-
-  .banner {
-    background: #E6E7E7;
-  }
 
   h1 {
     font-family: 'Poppins';
@@ -11,6 +11,7 @@
     font-weight: 700;
     font-size: 70px;
     line-height: 130%;
+
     /* identical to box height, or 91px */
 
     letter-spacing: 0.1em;
@@ -60,8 +61,10 @@
 }
 
 .section-value {
-  h2 {
+  background: #E6E7E7;
 
+  h2 {
+    padding: 60px 0;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -142,6 +145,7 @@
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
+    border: 1px solid #F5F5F5;
 
     color: #ED1E79;
 
@@ -150,7 +154,10 @@
     color: #ED1E79;
     border-radius: 40px;
 
-    &:hover {}
+    &:hover {
+      // filter: brightness(0.9)
+      border: 1px solid #ED1E79;
+    }
 
     img {
       margin-right: 14px;
@@ -159,7 +166,27 @@
 
 }
 
+.plus-about {
+  img {
+
+    height: 320px;
+    width: 256px;
+  }
+}
+
+.ver-mais {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #ED1E79;
+}
+
 @media (max-width: 576px) {
+
   .banner {
     .content {
       h1 {

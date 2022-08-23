@@ -3,7 +3,10 @@ footer {
 
   background: #00000080;
 
-  .container {
-    padding: 70px 0;
+  .container {}
+
+  .social-network {
+    display: flex;
+    align-items: center;
   }
 }

@@ -9,15 +9,18 @@ import { HospedagemAfetivaComponent } from './pages/hospedagem-afetiva/hospedage
 import { PetCareComponent } from './pages/pet-care/pet-care.component';
 import { FormWppComponent } from './pages/form-wpp/form-wpp.component';
 import { AgendamentoDogWalkingComponent } from './pages/agendamento-dog-walking/agendamento-dog-walking.component';
+import { PetSitterComponent } from './pages/pet-sitter/pet-sitter.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'sobre', component: AboutComponent },
+  { path: 'sobre-nos', component: AboutComponent },
   { path: 'dog-walking', component: DogWalkingComponent },
   { path: 'hospedagem-afetiva', component: HospedagemAfetivaComponent },
   { path: 'pet-care', component: PetCareComponent },
   { path: 'wpp', component: FormWppComponent },
-  { path: 'agendamento-dog-walking', component: AgendamentoDogWalkingComponent }
+  { path: 'agendamento-dog-walking', component: AgendamentoDogWalkingComponent },
+  { path: 'pet-sitter', component: PetSitterComponent }
+
 ];
 
 @NgModule({

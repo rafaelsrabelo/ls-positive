@@ -1,18 +1,20 @@
 <nav class="navbar navbar-expand-lg py-3 bg-white">
   <div class="container">
-    <div class="d-flex justify-content-between">
+    <div class="d-flex">
 
       <div class="logo">
 
         <a class="navbar-brand" href="#">
           <img src="./../../../assets/img/logo.png" alt="">
         </a>
+
       </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
@@ -20,7 +22,7 @@
           <a class="nav-link active" aria-current="page" routerLink="/">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nós</a>
+          <a class="nav-link" href="#" routerLink="/sobre-nos">Sobre nós</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -31,20 +33,24 @@
             <li><a class="dropdown-item" href="#" routerLink="/dog-walking">Dog Walking</a></li>
             <li><a class="dropdown-item" href="#" routerLink="/hospedagem-afetiva">Hospedagem Afetiva</a></li>
             <li><a class="dropdown-item" href="#" routerLink="/pet-care">Pet Care</a></li>
-            <li><a class="dropdown-item" href="#">Pet Sitter</a></li>
+            <li><a class="dropdown-item" href="#" routerLink="/pet-sitter">Pet Sitter</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Reviews </a>
+          <a class="nav-link" href="#" routerLink="review">Reviews </a>
         </li>
 
       </ul>
     </div>
-
     <div>
       <button class="login d-none d-sm-block">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill"
+          viewBox="0 0 16 16">
+          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+        </svg>
         Login
       </button>
+
 
     </div>
   </div>

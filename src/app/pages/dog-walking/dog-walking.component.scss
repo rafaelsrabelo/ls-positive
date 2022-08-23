@@ -1,5 +1,5 @@
 .banner {
-  background: #D2D2D2;
+  background: #E6E7E7;
 }
 
 .content {
@@ -61,6 +61,8 @@
 }
 
 .section-value {
+  background: #E6E7E7;
+
   h2 {
     padding: 60px 0;
     font-family: 'DM Sans';
@@ -143,6 +145,7 @@
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
+    border: 1px solid #F5F5F5;
 
     color: #ED1E79;
 
@@ -151,7 +154,10 @@
     color: #ED1E79;
     border-radius: 40px;
 
-    &:hover {}
+    &:hover {
+      // filter: brightness(0.9)
+      border: 1px solid #ED1E79;
+    }
 
     img {
       margin-right: 14px;
@@ -177,6 +183,11 @@
   text-transform: uppercase;
 
   color: #ED1E79;
+}
+
+.plus {
+  background: #d2d2d2;
+  padding: 30px;
 }
 
 @media (max-width: 576px) {
