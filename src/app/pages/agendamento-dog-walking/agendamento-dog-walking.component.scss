@@ -25,4 +25,21 @@
     padding: 16px 32px;
     color: #fff !important;
   }
+
+
+}
+
+.term-service {
+  display: flex;
+  align-items: center;
+
+  .form-check {}
+
+  .term {
+    margin-left: 100vh;
+
+    background: transparent;
+    color: red !important;
+    text-decoration: underline;
+  }
 }
