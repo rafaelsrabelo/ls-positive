@@ -3,10 +3,23 @@ footer {
 
   background: #00000080;
 
+  a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+
   .container {}
 
   .social-network {
-    display: flex;
-    align-items: center;
+
+    .icon {
+      // border: 1px solid #000;
+    }
   }
 }
