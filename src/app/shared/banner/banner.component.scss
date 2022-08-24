@@ -172,3 +172,14 @@
     text-decoration: underline;
   }
 }
+
+@media (max-width: 576px) {
+  .banner {
+
+    button {
+      justify-content: center;
+      // margin: 20px;
+      width: 100%;
+    }
+  }
+}
