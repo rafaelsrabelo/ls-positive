@@ -185,12 +185,53 @@
   color: #ED1E79;
 }
 
+.plus {
+  background: #d2d2d2;
+  // margin-bottom: 30px;
+
+  // padding: 30px;
+  img {
+    height: 360px;
+  }
+
+  h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+
+    /* Secondary Colors/gray-headline */
+
+    color: #212529;
+
+  }
+}
+
 @media (max-width: 576px) {
 
   .banner {
     .content {
+      .blue {
+        padding: 20px 30px;
+      }
+
+      .section-value {
+        margin: 0;
+      }
+
       h1 {
         font-size: 44px;
+      }
+
+      .content-check {
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        // text-align: center;
+        // background: red;
+        // margin-bottom: 40px;
       }
     }
   }
@@ -201,5 +242,17 @@
 
   .aviso {
     font-size: 18px;
+  }
+
+  .plus {
+    margin: 30px;
+
+    img {
+      // margin-bottom: 30px;
+      // padding: 30px;
+      width: 100%;
+
+      margin-bottom: 30px;
+    }
   }
 }

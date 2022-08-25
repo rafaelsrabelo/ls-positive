@@ -11,6 +11,7 @@
     font-weight: 700;
     font-size: 70px;
     line-height: 130%;
+
     /* identical to box height, or 91px */
 
     letter-spacing: 0.1em;
@@ -63,7 +64,7 @@
   background: #E6E7E7;
 
   h2 {
-
+    padding: 60px 0;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -144,6 +145,7 @@
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
+    border: 1px solid #F5F5F5;
 
     color: #ED1E79;
 
@@ -152,7 +154,10 @@
     color: #ED1E79;
     border-radius: 40px;
 
-    &:hover {}
+    &:hover {
+      // filter: brightness(0.9)
+      border: 1px solid #ED1E79;
+    }
 
     img {
       margin-right: 14px;
@@ -161,17 +166,98 @@
 
 }
 
+.plus-about {
+  img {
+
+    height: 320px;
+    width: 256px;
+  }
+}
+
+.ver-mais {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #ED1E79;
+}
+
+.plus {
+  background: #d2d2d2;
+  // margin-bottom: 30px;
+
+  // padding: 30px;
+  img {
+    height: 360px;
+  }
+
+  h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+
+    /* Secondary Colors/gray-headline */
+
+    color: #212529;
+
+  }
+
+  .titulo {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+
+    /* Secondary Colors/gray-headline */
+
+    color: #212529;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    // font-family: 'DM Sans';
+    // font-style: normal;
+    // font-weight: 700;
+    // font-size: 30px;
+    // line-height: 39px;
+    // text-align: center;
+
+    // margin-bottom: 50px;
+    // background-color: red;
+  }
+}
+
 @media (max-width: 576px) {
 
   .banner {
     .content {
-      h1 {
-        font-size: 44px;
-        line-height: 50px;
+      .blue {
+        padding: 20px 30px;
       }
 
-      p {
-        margin-top: 20px;
+      .section-value {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 44px;
+      }
+
+      .content-check {
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        // text-align: center;
+        // background: red;
+        // margin-bottom: 40px;
       }
     }
   }
@@ -182,5 +268,17 @@
 
   .aviso {
     font-size: 18px;
+  }
+
+  .plus {
+    margin: 30px;
+
+    img {
+      // margin-bottom: 30px;
+      // padding: 30px;
+      width: 100%;
+
+      margin-bottom: 30px;
+    }
   }
 }

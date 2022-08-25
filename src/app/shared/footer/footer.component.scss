@@ -1,7 +1,6 @@
 footer {
-  // margin-top: 100px;
-
-  background: #00000080;
+  background: #F2F2F2;
+  margin-top: 100px;
 
   a {
     font-family: 'DM Sans';
@@ -13,17 +12,4 @@ footer {
 
     color: #000000;
   }
-
-  .container {}
-
-  .social-network {
-
-    .icon {
-      // border: 1px solid #000;
-    }
-  }
-}
-
-@media (min-width: 576px) {
-  footer {}
 }
