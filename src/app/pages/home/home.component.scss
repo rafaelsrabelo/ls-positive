@@ -11,3 +11,9 @@
 
   padding: 100px 0;
 }
+
+@media (max-width: 576px) {
+  .banner-message {
+    font-size: 22px;
+  }
+}
