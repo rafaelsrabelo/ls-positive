@@ -1,62 +1,47 @@
-.all {
-  background: #eaeaea;
+.services {
+  background: #EAEAEA;
 
-  .header-service {
-    // margin-top: 36px;
-    margin-bottom: 30px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 65px;
-    color: #000000;
+  .service-header {
+    h1 {
+      text-align: center;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 65px;
 
+      color: #495057;
+    }
   }
 
-  .all-card {
-    background: #eaeaea;
-    justify-content: center;
+  .service-content {
+    background: #EAEAEA;
 
-    .card-service {
-      padding: 20px;
-      width: 256px;
-      background: #fff;
-      // margin: 10px;
+    .service {
+      margin-bottom: 100px;
+      // padding: 0 30px;
       padding: 30px;
-      // border: 1px solid #000;
+      text-align: center;
+      background: #ffffff;
       border-radius: 15px;
-      margin-right: 10px;
+      height: 336px;
 
       img {
         border-radius: 15px;
         width: 100%;
-        // height: 250px;
+        height: 120px;
+        background: red;
       }
-
-      &:hover {
-        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-
-      }
-
-      &+.card-service {
-        // margin-left: 30px;
-      }
-    }
-
-    .text-card {
-      margin-top: 30px;
 
       h4 {
+        color: #000000;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
         font-size: 22px;
         line-height: 29px;
-        /* identical to box height */
 
-        text-align: center;
-
-        color: #000000;
+        margin-top: 30px;
       }
 
       p {
@@ -65,29 +50,16 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 21px;
-        text-align: center;
 
         color: #000000;
+
       }
-    }
-  }
-}
 
-@media (max-width: 576px) {
-  .all {
-    .header-service {
-      h2 {}
-    }
+      &:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    margin: 20px;
+      }
 
-    .card-service {
-      width: 100%;
-      // height: 500px;
-      border-radius: 15px;
-      margin-right: 0px;
-
-      img {}
     }
   }
 }

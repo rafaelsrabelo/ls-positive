@@ -1,17 +1,13 @@
-.banner {
-  background: #E6E7E7;
-}
-
-.content {
+.banner-service {
+  background-color: #E6E7E7;
   padding: 90px 0;
 
-  h1 {
+  h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 130%;
-
     /* identical to box height, or 91px */
 
     letter-spacing: 0.1em;
@@ -21,35 +17,28 @@
     color: #212529;
   }
 
-  p {
+  .subtitle {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     /* or 27px */
-
-
+    margin-top: -12px;
     /* Secondary Colors/gray-paragraph */
 
     color: #495057;
   }
 
   .content-check {
-    margin-left: 110px;
-    display: flex;
-    align-items: center;
-    // justify-content: start;
+    margin-top: 40px;
 
-    img {
-      margin-right: 20px;
-    }
-
-    p {
+    .subtitle-check {
+      margin-left: 90px;
       font-family: 'DM Sans';
       font-style: normal;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 130%;
       /* or 21px */
 
@@ -58,13 +47,14 @@
       color: #495057;
     }
   }
+
 }
 
-.section-value {
+.investimento {
   background: #E6E7E7;
+  padding: 0px;
 
   h2 {
-    padding: 60px 0;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -75,124 +65,108 @@
     /* Secondary Colors/gray-headline */
 
     color: #212529;
+    padding-bottom: 60px;
   }
 
-  .value {
+  .investimento-content {
     background: #ffffff;
-    padding: 50px 40px;
     border-radius: 15px;
+    padding: 30px;
   }
 
-  .value {
-
-    // margin: 100px;
-
-    .header-value {
-      text-align: center;
-      margin-bottom: 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      strong {
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 29px;
-        /* identical to box height */
-
-        color: #000000;
-        margin-left: 14px;
-      }
-    }
-
-    .content-value {
-      display: flex;
-      justify-content: start;
-      align-items: center;
-
-      p {
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 23px;
-
-        color: #000000;
-      }
-
-      span {
-        margin-left: auto;
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 23px;
-
-        color: #000000;
-      }
-    }
-  }
-
-  button {
-    margin-top: 40px;
+  .investimento-header {
+    display: flex;
     align-items: center;
-    padding: 16px 32px;
+    justify-content: center;
+
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    border: 1px solid #F5F5F5;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height */
 
-    color: #ED1E79;
+    text-align: center;
 
+    color: #000000;
+    margin-bottom: 50px;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+
+  .investimento-content-value {
+    display: flex;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+
+    .value {
+
+      margin-top: 50px;
+    }
+
+    .price {
+      margin-left: auto;
+    }
+
+  }
+
+  h3 {
+    // margin: 60px 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    img {
+      margin-right: 10px;
+    }
+
+  }
+
+  .after-button {
+    margin-bottom: 70px;
+  }
+
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    font-weight: 700;
+    width: 167px;
+    height: 50px;
 
     background: #F5F5F5;
     color: #ED1E79;
     border-radius: 40px;
 
+    transition: 0.8s;
+
+    margin-bottom: 50px;
+
     &:hover {
-      // filter: brightness(0.9)
-      border: 1px solid #ED1E79;
-    }
-
-    img {
-      margin-right: 14px;
+      color: #ffffff;
+      background: #ED1E79;
     }
   }
-
 }
 
-.plus-about {
-  img {
-
-    height: 320px;
-    width: 256px;
-  }
-}
-
-.ver-mais {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-
-  color: #ED1E79;
-}
-
-.plus {
-  background: #d2d2d2;
-  // margin-bottom: 30px;
-
-  // padding: 30px;
-  img {
-    height: 360px;
-  }
+section {
+  background: #D2D2D2;
+  padding-bottom: 60px;
 
   h2 {
     font-family: 'DM Sans';
@@ -205,80 +179,62 @@
     /* Secondary Colors/gray-headline */
 
     color: #212529;
-
+    padding: 60px 0;
   }
 
-  .titulo {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 39px;
-    text-align: center;
+  img {
+    width: 100%;
 
-    /* Secondary Colors/gray-headline */
-
-    color: #212529;
-    margin-bottom: 50px;
-  }
-
-  h1 {
-    // font-family: 'DM Sans';
-    // font-style: normal;
-    // font-weight: 700;
-    // font-size: 30px;
-    // line-height: 39px;
-    // text-align: center;
-
-    // margin-bottom: 50px;
-    // background-color: red;
+    // width: 100%;
   }
 }
 
 @media (max-width: 576px) {
+  .investimento {}
 
-  .banner {
-    .content {
-      .blue {
-        padding: 20px 30px;
+  div {
+
+    .banner-service {
+
+      h2 {
+        text-align: center;
+        font-size: 42px;
+        margin-bottom: 50px;
       }
 
-      .section-value {
-        margin: 0;
+      .subtitle {
+        font-size: 18px;
+
+        text-align: center;
       }
 
-      h1 {
-        font-size: 44px;
+      .subtitle-check {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+
+        margin-left: 0 !important;
+        margin-right: 20px;
       }
 
-      .content-check {
-        margin: 0 auto;
-        padding-left: 30px;
-        padding-right: 30px;
-        // text-align: center;
-        // background: red;
-        // margin-bottom: 40px;
+      img {
+        padding: 0 30px;
+        margin-top: 30px;
       }
     }
   }
 
-  .value {
-    margin: 20px;
+  .investimento-content {
+    margin-bottom: 30px;
+
   }
 
-  .aviso {
-    font-size: 18px;
-  }
-
-  .plus {
-    margin: 30px;
+  section {
+    padding: 30px;
 
     img {
-      // margin-bottom: 30px;
-      // padding: 30px;
+      margin-bottom: 20px;
       width: 100%;
-
-      margin-bottom: 30px;
     }
   }
 }

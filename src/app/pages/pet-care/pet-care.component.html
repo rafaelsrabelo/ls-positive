@@ -1,145 +1,91 @@
 <app-header></app-header>
 
-<section class="banner">
-  <div class="container">
-    <div class="content d-flex row">
-      <div class="col-md-8 col-xs-12">
-        <h1>
-          Pet Care para Eventos
-        </h1>
-        <p>
-          Nossa hospedagem é feita mediante agendamento.
-          Acompanhamos os animais de estimação em casamentos, formaturas, aniversários e outros eventos importantes para
-          o tutor. De forma personalizada, proporcionamos segurança e conforto tanto para o pet quanto para o cliente
-        </p>
-        <div class="content-check">
-          <img src="./../../../assets/img/check.png" alt="">
-          <p>Com manejo positivo, cuidamos do pet no evento e possibilitamos a presença dele na hora das fotos com a
-            família</p>
+<div class="" *ngFor="let item of banner">
+
+  <div class="banner-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <h2>
+            {{item.title}}
+          </h2>
+
+          <p class="subtitle">
+            {{item.subtitle}}
+          </p>
+
+          <div class="content-check">
+            <p class="subtitle-check">
+              <img src="./../../../assets/img/check.png" alt="">
+              {{item.check1}}
+            </p>
+            <p class="subtitle-check">
+              <img src="./../../../assets/img/check.png" alt="">
+              {{item.check2}}
+            </p>
+            <p class="subtitle-check">
+              <img src="./../../../assets/img/check.png" alt="">
+              {{item.check3}}
+            </p>
+          </div>
+
         </div>
-        <div class="content-check">
-          <img src="./../../../assets/img/check.png" alt="">
-          <p>Entregamos fotos e vídeos do pet aos tutores para recordação</p>
+        <div class="col-md-4 col-xs-12">
+          <img src="./../../../assets/fotos/petcare.png" class="img-fluid" alt="">
         </div>
-        <div class="content-check">
-          <img src="./../../../assets/img/check.png" alt="">
-          <p>Disponibilizamos o taxi pet para o deslocamento ao local do evento</p>
-        </div>
-        <div class="content-check">
-          <img src="./../../../assets/img/check.png" alt="">
-          <p>Caso necessário, reservamos a hospedagem para que ele possa descansar em um ambiente seguro e familiar
-            enquanto os tutores aproveitam o evento despreocupados</p>
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12 blue">
-        <img src="../../../assets/fotos/petcare.png" class="img-fluid" alt="">
       </div>
     </div>
   </div>
 
-</section>
+</div>
 
-<section class="section-value">
-  <!-- <h2 class="text-center">
-    Investimento
-  </h2>
+<div class="investimento">
+
   <div class="container">
-    <div class="d-flex row justify-content-center">
-      <div class="col-md-5 col-xs-12">
-        <div class="value">
-          <div class="header-value">
-            <img src="./../../../assets/img/check.png" alt="">
-            <strong>Diária</strong>
-          </div>
-          <div class="content-value">
-            <p class="me-auto">1 Pet</p>
-            <p>R$ 60,00</p>
-          </div>
-          <div class="content-value">
-            <p class="me-auto">2 Pets</p>
-            <p>R$ 100,00</p>
-          </div>
-          <div class="content-value">
-            <p class="me-auto">3 Pets</p>
-            <p>R$ 150,00</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 col-xs-12">
-        <div class="value">
-          <div class="header-value">
-            <img src="./../../../assets/img/check.png" alt="">
-            <strong>Feriado</strong>
-          </div>
-          <div class="content-value">
-            <p class="me-auto">1 Pet</p>
-            <p>R$ 80,00</p>
-          </div>
-          <div class="content-value">
-            <p class="me-auto">2 Pets</p>
-            <p>R$ 120,00</p>
-          </div>
-          <div class="content-value">
-            <p class="me-auto">3 Pets</p>
-            <p>R$ 180,00</p>
-          </div>
-        </div>
+    <h2 class="text-center">Investimento</h2>
+    <div class="row justify-content-center">
 
-      </div>
-    </div>
-  </div> -->
-  <h1 class="titulo text-center">Valores personalizados, consultar <br> diretamente com a empresa</h1>
-  <h4 class="text-center aviso mt-5">
-    <img src="./../../../assets/img/Vector.svg" alt="">
-    Cuidados no Evento (por hora)
-  </h4>
-  <h4 class="text-center mt-5 aviso">
-    <img src="./../../../assets/img/Vector.svg" alt="">
-    Deslocamento
-  </h4>
-  <h4 class="text-center mt-5 aviso">
-    <img src="./../../../assets/img/Vector.svg" alt="">
-    Hospedagem (opcional)
-  </h4>
-  <div class="container text-center">
+      <h3 class="text-center">
+        <img src="./../../../assets/fotos/pata1.svg" alt="">
+        Cuidados no Evento (por hora)
+      </h3>
 
-    <a href="https://wa.me/5585999324831">
+      <h3 class="text-center my-3">
+        <img src="./../../../assets/fotos/pata1.svg" alt="">
+        Deslocamento
+      </h3>
 
-      <button class="mb-5">
-        <img src="./../../../assets/img/wpp.svg" alt="">
+      <h3 class="text-center after-button mt-3">
+        <img src="./../../../assets/fotos/pata1.svg" alt="">
+        Hospedagem (opcional)
+      </h3>
+
+
+      <a class="btn-plus" href=" https://wa.me/5585999324831">
         AGENDAR AQUI
-      </button>
-    </a>
-
-
-
+      </a>
+    </div>
   </div>
+</div>
 
-</section>
-
-
-<section class="plus py-5">
-  <h2 class="text-center py-5">Conheça Mais +</h2>
+<section>
   <div class="container">
-    <div class="d-flex row">
+    <h2 class="text-center">Conheça mais +</h2>
+    <div class="row">
       <div class="col-md-3 col-xs-12">
-        <img src="./../../../assets/fotos/dogplus5.png" class="img-fluid" alt="">
+        <img src="./../../../assets/fotos/dogplus5.png" alt="">
       </div>
       <div class="col-md-3 col-xs-12">
-        <img src="./../../../assets/fotos/dogplus6.png" class="img-fluid" alt="">
-
+        <img src="./../../../assets/fotos/dogplus6.png" alt="">
       </div>
       <div class="col-md-3 col-xs-12">
-        <img src="./../../../assets/fotos/dogplus7.png" class="img-fluid" alt="">
-
+        <img src="./../../../assets/fotos/dogplus7.png" alt="">
       </div>
       <div class="col-md-3 col-xs-12">
-        <img src="./../../../assets/fotos/dogplus8.png" class="img-fluid" alt="">
-
+        <img src="./../../../assets/fotos/dogplus8.png" alt="">
       </div>
     </div>
   </div>
 </section>
 
-
-<app-footer class=""></app-footer>
+<app-footer></app-footer>

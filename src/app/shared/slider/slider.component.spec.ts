@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FormWppComponent } from './form-wpp.component';
+import { SliderComponent } from './slider.component';
 
-describe('FormWppComponent', () => {
-  let component: FormWppComponent;
-  let fixture: ComponentFixture<FormWppComponent>;
+describe('SliderComponent', () => {
+  let component: SliderComponent;
+  let fixture: ComponentFixture<SliderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FormWppComponent ]
+      declarations: [ SliderComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FormWppComponent);
+    fixture = TestBed.createComponent(SliderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

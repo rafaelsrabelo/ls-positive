@@ -10,14 +10,14 @@ import { BannerComponent } from './shared/banner/banner.component';
 import { ServicesComponent } from './shared/services/services.component';
 import { ReviewComponent } from './shared/review/review.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { ServiceComponent } from './pages/service/service.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SliderComponent } from './shared/slider/slider.component';
 import { DogWalkingComponent } from './pages/dog-walking/dog-walking.component';
-import { HospedagemAfetivaComponent } from './pages/hospedagem-afetiva/hospedagem-afetiva.component';
+import { BannerServiceComponent } from './shared/banner-service/banner-service.component';
+import { HospedagemAtivaComponent } from './pages/hospedagem-ativa/hospedagem-ativa.component';
 import { PetCareComponent } from './pages/pet-care/pet-care.component';
-import { FormWppComponent } from './pages/form-wpp/form-wpp.component';
-import { AgendamentoDogWalkingComponent } from './pages/agendamento-dog-walking/agendamento-dog-walking.component';
 import { PetSitterComponent } from './pages/pet-sitter/pet-sitter.component';
 
 @NgModule({
@@ -28,20 +28,20 @@ import { PetSitterComponent } from './pages/pet-sitter/pet-sitter.component';
     ServicesComponent,
     ReviewComponent,
     FooterComponent,
-    ServiceComponent,
     AboutComponent,
     HomeComponent,
+    SliderComponent,
     DogWalkingComponent,
-    HospedagemAfetivaComponent,
+    BannerServiceComponent,
+    HospedagemAtivaComponent,
     PetCareComponent,
-    FormWppComponent,
-    AgendamentoDogWalkingComponent,
     PetSitterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
