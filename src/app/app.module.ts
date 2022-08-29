@@ -19,6 +19,7 @@ import { BannerServiceComponent } from './shared/banner-service/banner-service.c
 import { HospedagemAtivaComponent } from './pages/hospedagem-ativa/hospedagem-ativa.component';
 import { PetCareComponent } from './pages/pet-care/pet-care.component';
 import { PetSitterComponent } from './pages/pet-sitter/pet-sitter.component';
+import { ButtonBackComponent } from './shared/button-back/button-back.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { PetSitterComponent } from './pages/pet-sitter/pet-sitter.component';
     BannerServiceComponent,
     HospedagemAtivaComponent,
     PetCareComponent,
-    PetSitterComponent
+    PetSitterComponent,
+    ButtonBackComponent
   ],
   imports: [
     BrowserModule,
