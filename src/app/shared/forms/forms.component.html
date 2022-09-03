@@ -1,0 +1,42 @@
+<form #form="ngForm" (ngSubmit)="submitForm(form)">
+  <h2>Dados do dog</h2>
+  <label for="">Nome do dogzin: </label>
+  <input type="text" name="name" #name="ngModel" [ngModel]="name.value" required />
+  <br>
+  <span style="color: red" *ngIf="!name.valid && (name.dirty && name.touched)">
+    Campo obrigatorio
+  </span>
+  <br> <br> <br>
+  <h2>Qual serviço?</h2>
+  <label for="">Dog Walking</label>
+  <input type="radio" name="service" value="Dog Walking" ngModel>
+  <br>
+  <label for="">Hospedagem Afetiva</label>
+  <input type="radio" name="service" value="Hospedagem Afetiva" ngModel>
+  <br>
+  <label for="">Pet Care</label>
+  <input type="radio" name="service" value="Pet Care" ngModel>
+  <br>
+  <label for="">Pet Sitter</label>
+  <input type="radio" name="service" value="Pet Sitter" ngModel>
+
+  <br> <br>
+
+  <h2>Select</h2>
+  <select name="valores" id="" ngModel>
+    <option value="">Selecione uma opção:</option>
+    <option value="1 pet">1 pet</option>
+    <option value="2 pet">2 pets</option>
+    <option value="3 pet">3 pets</option>
+    <option value="4 pet">a galera toda</option>
+  </select>
+  <br> <br>
+  <p>O serviço que desejo é o de {{form.value.service}} com {{form.value.valores}} e o dog se chama: {{form.value.name}}
+  </p>
+  <br> <br>
+  <button class="btn btn-primary" [disabled]="form.invalid">Enviar dados</button>
+</form>
+<br> <br> <br> <br> <br>
+{{form.value | json}}
+
+<br> <br> <br>

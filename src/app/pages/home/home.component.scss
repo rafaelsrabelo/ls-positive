@@ -4,16 +4,29 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 52px;
-
+  text-align: center;
   color: #FFFFFF;
 
   padding: 100px 0;
 }
 
+.dog {
+  img {
+    width: 30px;
+    height: 28px;
+  }
+}
+
 @media (max-width: 576px) {
   .banner-message {
-    font-size: 22px;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  img {
+    width: 16px;
+    height: 18px;
   }
 }

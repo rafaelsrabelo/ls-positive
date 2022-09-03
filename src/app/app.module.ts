@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
-
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './shared/banner/banner.component';
 import { ServicesComponent } from './shared/services/services.component';
@@ -20,6 +19,11 @@ import { HospedagemAtivaComponent } from './pages/hospedagem-ativa/hospedagem-at
 import { PetCareComponent } from './pages/pet-care/pet-care.component';
 import { PetSitterComponent } from './pages/pet-sitter/pet-sitter.component';
 import { ButtonBackComponent } from './shared/button-back/button-back.component';
+import { FormComponent } from './pages/form/form.component';
+import { FormsComponent } from './shared/forms/forms.component';
+
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -37,13 +41,17 @@ import { ButtonBackComponent } from './shared/button-back/button-back.component'
     HospedagemAtivaComponent,
     PetCareComponent,
     PetSitterComponent,
-    ButtonBackComponent
+    ButtonBackComponent,
+    FormComponent,
+    FormsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
