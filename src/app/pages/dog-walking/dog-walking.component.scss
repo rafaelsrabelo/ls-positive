@@ -25,7 +25,7 @@
     font-size: 18px;
     line-height: 150%;
     /* or 27px */
-    margin-top: -12px;
+    // margin-top: -12px;
     /* Secondary Colors/gray-paragraph */
 
     color: #495057;
@@ -34,8 +34,23 @@
   .content-check {
     margin-top: 40px;
 
+    .item {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+      }
+
+    }
+
+
     .subtitle-check {
-      margin-left: 90px;
+      // margin-left: 90px;
+      margin: 0;
       font-family: 'DM Sans';
       font-style: normal;
       font-weight: 400;
@@ -58,7 +73,7 @@
   h2 {
     font-family: 'Arima', cursive;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 50px;
     line-height: 65px;
     text-align: center;
@@ -185,6 +200,20 @@ section {
 }
 
 @media (max-width: 576px) {
+  .content-check {
+    .item {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
   .investimento {
 
 
@@ -225,7 +254,7 @@ section {
         margin-right: 20px;
       }
 
-      img {
+      .cover {
         padding: 0 30px;
         margin-top: 30px;
       }
