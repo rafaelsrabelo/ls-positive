@@ -4,9 +4,9 @@
   }
 
   h1 {
-    font-family: 'Poppins';
+    font-family: 'Arima', cursive;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 65px;
     line-height: 130%;
     /* or 84px */
@@ -16,8 +16,8 @@
 
     color: #212529;
 
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   p {
@@ -52,12 +52,21 @@
 }
 
 @media (max-width: 576px) {
+
+  .about-text,
+  .about-img,
+  .container {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+
   .message {
     padding: 20px;
   }
 
   .oi {
 
-    text-align: start;
+    text-align: justify;
   }
 }

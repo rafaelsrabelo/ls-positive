@@ -3,9 +3,9 @@
   padding: 90px 0;
 
   h2 {
-    font-family: 'Poppins';
+    font-family: 'Arima', cursive;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 70px;
     line-height: 130%;
     /* identical to box height, or 91px */
@@ -15,6 +15,7 @@
     /* Secondary Colors/gray-headline */
 
     color: #212529;
+    margin-bottom: 20px;
   }
 
   .subtitle {
@@ -55,9 +56,9 @@
   padding: 0px;
 
   h2 {
-    font-family: 'DM Sans';
+    font-family: 'Arima', cursive;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 50px;
     line-height: 65px;
     text-align: center;
@@ -65,7 +66,7 @@
     /* Secondary Colors/gray-headline */
 
     color: #212529;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
 
   .investimento-content {
@@ -161,20 +162,20 @@
 }
 
 section {
-  background: #D2D2D2;
+  background: #000000;
   padding-bottom: 60px;
 
   h2 {
-    font-family: 'DM Sans';
+    font-family: 'Arima', cursive;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 50px;
     line-height: 65px;
     text-align: center;
 
     /* Secondary Colors/gray-headline */
 
-    color: #212529;
+    color: #ffffff;
     padding: 60px 0;
   }
 
@@ -184,11 +185,24 @@ section {
 }
 
 @media (max-width: 576px) {
-  .investimento {}
+  .investimento {
+
+
+    .box {
+      padding: 0 40px;
+    }
+
+    h2 {
+      font-size: 36px;
+
+    }
+  }
 
   div {
 
     .banner-service {
+
+      padding: 60px 0;
 
       h2 {
         text-align: center;

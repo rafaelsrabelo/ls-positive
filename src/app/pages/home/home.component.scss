@@ -9,20 +9,21 @@
   text-align: center;
   color: #FFFFFF;
 
-  padding: 100px 0;
+  padding: 50px 20px;
 }
 
 .dog {
   img {
-    width: 30px;
-    height: 28px;
+    width: 26px;
+    height: 24px;
   }
 }
 
 @media (max-width: 576px) {
   .banner-message {
-    font-size: 12px;
+    font-size: 16px;
     line-height: normal;
+    font-weight: 500;
   }
 
   img {

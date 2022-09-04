@@ -122,10 +122,11 @@
 
 @media (max-width: 576px) {
   .banner {
+
     // text-align: center;
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       letter-spacing: 0;
       text-align: center;
     }
@@ -179,6 +180,11 @@
 
 @media (max-width: 576px) {
   .banner {
+    img {
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 40px;
+    }
 
     button {
       justify-content: center;
