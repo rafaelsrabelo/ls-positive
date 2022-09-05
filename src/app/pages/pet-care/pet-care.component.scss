@@ -76,18 +76,18 @@
   background: #E6E7E7;
   padding: 0px;
 
-  h2 {
-    font-family: 'Arima', cursive;
+  p {
+    font-family: 'DM Sans';
     font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 65px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
     text-align: center;
+    margin-bottom: 34px;
 
     /* Secondary Colors/gray-headline */
 
     color: #212529;
-    padding-bottom: 30px;
   }
 
   .investimento-content {
@@ -140,7 +140,7 @@
   }
 
   h3 {
-    margin: 60px 0;
+
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -164,7 +164,7 @@
     align-items: center;
     padding: 16px 32px;
     font-weight: 700;
-    width: 167px;
+    width: 170px;
     height: 50px;
 
     background: #F5F5F5;
@@ -173,7 +173,8 @@
 
     transition: 0.8s;
 
-    margin-bottom: 50px;
+    margin-top: 12px;
+    margin-bottom: 60px;
 
     &:hover {
       color: #ffffff;
@@ -222,6 +223,31 @@ section {
 
   .investimento {
 
+    p {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+
+      /* Secondary Colors/gray-headline */
+
+      color: #212529;
+    }
+
+    h3 {
+
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height */
+
+
+      color: #000000;
+    }
 
     .box {
       padding: 0 40px;
