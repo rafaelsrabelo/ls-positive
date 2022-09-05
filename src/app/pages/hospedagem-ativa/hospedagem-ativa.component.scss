@@ -24,7 +24,7 @@
     font-size: 18px;
     line-height: 150%;
     /* or 27px */
-    margin-top: -12px;
+
     /* Secondary Colors/gray-paragraph */
 
     color: #495057;
@@ -33,19 +33,33 @@
   .content-check {
     margin-top: 40px;
 
-    .subtitle-check {
-      margin-left: 90px;
-      font-family: 'DM Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 130%;
-      /* or 21px */
+    .item {
+      display: flex;
+      align-items: center;
+      margin: 10px;
 
-      letter-spacing: 0.1em;
-
-      color: #495057;
+      img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+      }
     }
+
+  }
+
+  .subtitle-check {
+    // margin-left: 90px;
+    margin: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    letter-spacing: 0.1em;
+
+    color: #495057;
   }
 
 }
@@ -118,7 +132,8 @@
   }
 
   h3 {
-    margin: 60px 0;
+    // margin: 60px 0;
+    // margin-top: 60px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -161,20 +176,20 @@
 }
 
 section {
-  background: #D2D2D2;
+  background: #000000;
   padding-bottom: 60px;
 
   h2 {
-    font-family: 'DM Sans';
+    font-family: 'Arima', cursive;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 50px;
     line-height: 65px;
     text-align: center;
 
     /* Secondary Colors/gray-headline */
 
-    color: #212529;
+    color: #fff;
     padding: 60px 0;
   }
 
@@ -185,11 +200,38 @@ section {
 }
 
 @media (max-width: 576px) {
-  .investimento {}
+  .content-check {
+    .item {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  .investimento {
+
+
+    .box {
+      padding: 0 40px;
+    }
+
+    h2 {
+      font-size: 36px;
+
+    }
+  }
 
   div {
 
     .banner-service {
+
+      padding: 60 0;
 
       h2 {
         text-align: center;
@@ -212,7 +254,7 @@ section {
         margin-right: 20px;
       }
 
-      img {
+      .cover {
         padding: 0 30px;
         margin-top: 30px;
       }

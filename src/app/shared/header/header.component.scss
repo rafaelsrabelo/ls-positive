@@ -57,3 +57,9 @@ nav {
 .active {
   font-weight: 700;
 }
+
+@media (max-width: 576px) {
+  nav {
+    height: 70px;
+  }
+}
