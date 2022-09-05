@@ -2,6 +2,12 @@
   background-color: #E6E7E7;
   padding: 90px 0;
 
+  .cover {
+    img {
+      border-radius: 10px;
+    }
+  }
+
   h2 {
     font-family: 'Arima', cursive;
     font-style: normal;
