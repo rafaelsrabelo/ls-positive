@@ -4431,6 +4431,13 @@ neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+ngx-sharebuttons@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-sharebuttons/-/ngx-sharebuttons-11.0.0.tgz#3fabdb49cc9a3a648e2d205b8b10abf245fa6e32"
+  integrity sha512-uvFQgQ6VtJu901iKcsbXFt/9jk9fWGKKD8ZQdOYK9a7HBd8z/Bmb6x1Hly1roF7AbMvCE2fYwOcbRHsEvTecbg==
+  dependencies:
+    tslib "^2.0.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/nice-napi/-/nice-napi-1.0.2.tgz#dc0ab5a1eac20ce548802fc5686eaa6bc654927b"

@@ -24,7 +24,6 @@ import { FormsComponent } from './shared/forms/forms.component';
 
 import { FormsModule } from '@angular/forms';
 
-
 @NgModule({
   declarations: [
     AppComponent,
