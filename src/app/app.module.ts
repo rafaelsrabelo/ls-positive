@@ -23,6 +23,11 @@ import { FormComponent } from './pages/form/form.component';
 import { FormsComponent } from './shared/forms/forms.component';
 
 import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field'
+import { MatInputModule } from '@angular/material/input'
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -49,8 +54,12 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    FormsModule
-
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -13,6 +13,10 @@ export class ReviewComponent implements OnInit {
     // this.arrowClick();
   }
 
+  public alert(value: MouseEvent) {
+    console.log(value.altKey)
+  }
+
   // arrowClick() {
   //   const controls = document.querySelectorAll(".control");
 
